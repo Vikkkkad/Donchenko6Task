@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f6d6f0">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название"
+        android:minHeight="45dp"
+        android:textColor="#511646"
+        android:textColorHint="#a12d8b"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:minHeight="45dp"
+        android:textColor="#511646"
+        android:textColorHint="#a12d8b"/>
+
+    <Button
+        android:id="@+id/btnSetDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать дату и время"
+        android:background="#84086d"
+    android:textColor="#e1a4d6" />
+
+    <Button
+        android:id="@+id/btnSaveReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:background="#84086d"
+    android:textColor="#e1a4d6" />
+</LinearLayout>
